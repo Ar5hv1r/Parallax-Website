@@ -1,0 +1,67 @@
+html, body {
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color:#666;
+}
+
+.img1, .img2{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img1{
+    background-image: url('Kyoto.jpg');
+    min-height:100%;
+}
+
+.img2{
+    background-image: url('Tokyo.jpg');
+    min-height: 400px;
+}
+
+.section{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.light{
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.dark{
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.border{
+    background-color: #111;
+    color: white;
+    padding: 20px;
+}
+
+.border.transparent {
+    background-color: transparent;
+}
