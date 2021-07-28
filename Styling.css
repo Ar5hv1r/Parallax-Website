@@ -8,7 +8,7 @@ html, body {
     color:#666;
 }
 
-.img1, .img2, .img3{
+.img1, .img2, .img3 {
     position: relative;
     opacity: 0.70;
     background-position: center;
@@ -17,22 +17,22 @@ html, body {
     background-attachment: fixed;
 }
 
-.img1{
+.img1 {
     background-image: url('Kyoto.jpg');
     min-height:100%;
 }
 
-.img2{
+.img2 {
     background-image: url('Tokyo.jpg');
     min-height: 400px;
 }
 
-.img3{
+.img3 {
     background-image: url('Mountain.jpg');
     min-height: 400px;
 }
 
-.section{
+.section {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -40,17 +40,17 @@ html, body {
     padding-right: 80px;
 }
 
-.light{
+.light {
     background-color: #f4f4f4;
     color: #666;
 }
 
-.dark{
+.dark {
     background-color: #282e34;
     color: #ddd;
 }
 
-.text{
+.text {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -61,7 +61,7 @@ html, body {
     text-transform: uppercase;
 }
 
-.border{
+.border {
     background-color: #111;
     color: white;
     padding: 20px;
